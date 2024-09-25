@@ -1,5 +1,5 @@
 
-# BetterThanCris Chess Bot
+# BetterThanCris Chess Bot in C(++)
 ## Table of Contents 
  1. [Introduction](#introduction)  
  2. [Features](#features)

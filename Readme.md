@@ -1,5 +1,6 @@
 
 # BetterThanCris Chess Bot in C(++)
+ - Bot was written primarily in C but utilises a few C++ features. The source code is in a `.cpp` file but follows C programming conventions and structure.
 ## Table of Contents 
  1. [Introduction](#introduction)  
  2. [Features](#features)
@@ -11,7 +12,6 @@
  - Created by Gustavo Knudsen
  - UCI Protocol Chess Engine
  - Current Version: 2.3
- - Bot was written primarily in C but utilises a few C++ features. The source code is in a `.cpp` file but follows C programming conventions and structure.
 ## Features
  **General Features:**
  - UCI Protocol

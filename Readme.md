@@ -61,7 +61,7 @@
 **Version 2.3**
 - [CCRL](https://www.computerchess.org.uk/ccrl/404/) Blitz Rating [Estimate](https://docs.google.com/spreadsheets/d/1t2gDEfoMDtqAA5uL9U_GPA9CijjlMrVK4AR4DiAqqGU/edit?usp=sharing): 2071 ± 20
 - [Lichess](https://lichess.org/@/BetterThanCris) (Playing Almost Exclusively Against Other Bots):
-	- Bullet: 2202 Peak, Blitz: 2052 Peak
+	- Bullet: 2202 Peak, Blitz: 2062 Peak
 - Against Humans, Especially in Bullet or Blitz, Rating can be Expected to be Higher
 
 

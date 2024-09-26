@@ -63,7 +63,7 @@
 - [Lichess](https://lichess.org/@/BetterThanCris) (Playing Almost Exclusively Against Other Bots):
 	- Bullet: 2202 Peak, Blitz: 2062 Peak
 - Against Humans, Especially in Bullet or Blitz, Rating can be Expected to be Higher
-
+- [Sample Games](https://www.chess.com/c/2j3KdGsGr)
 
 
  

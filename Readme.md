@@ -14,6 +14,7 @@
  - Created by Gustavo Knudsen
  - UCI Protocol Chess Engine
  - Current Version: 2.3
+ - Is, In Fact, Better Than Cris
 ## Strength
 **Version 2.3**
 - [CCRL](https://www.computerchess.org.uk/ccrl/404/) Blitz Rating [Estimate](https://docs.google.com/spreadsheets/d/1t2gDEfoMDtqAA5uL9U_GPA9CijjlMrVK4AR4DiAqqGU/edit?usp=sharing): 2071 ± 20

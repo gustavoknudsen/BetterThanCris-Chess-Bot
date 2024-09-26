@@ -2,17 +2,25 @@
 # BetterThanCris Chess Bot in C(++)
  - Bot was written primarily in C but utilises a few C++ features. The source code is in a `.cpp` file but follows C programming conventions and structure.
 ## Table of Contents 
- 1. [Introduction](#introduction)  
- 2. [Features](#features)
- 3. [Strength](#strength)  
- 4. [Play BetterThanCris](#play-betterthancris)
- 5. [Releases](#releases) 
- 6. [Credits](#credits)
+ 1. [Introduction](#introduction)
+ 2. [Strength](#strength)  
+ 3. [Features](#features)
+ 4. [To Do](#to-do)  
+ 5. [Play BetterThanCris](#play-betterthancris)
+ 6. [Releases](#releases) 
+ 7. [Credits](#credits)
 ## Introduction
  - Aggressive & Entertaining Chess
  - Created by Gustavo Knudsen
  - UCI Protocol Chess Engine
  - Current Version: 2.3
+## Strength
+**Version 2.3**
+- [CCRL](https://www.computerchess.org.uk/ccrl/404/) Blitz Rating [Estimate](https://docs.google.com/spreadsheets/d/1t2gDEfoMDtqAA5uL9U_GPA9CijjlMrVK4AR4DiAqqGU/edit?usp=sharing): 2071 ± 20
+- [Lichess](https://lichess.org/@/BetterThanCris) (Playing Almost Exclusively Against Other Bots):
+	- Bullet: 2202 Peak, Blitz: 2062 Peak
+- Against Humans, Especially in Bullet or Blitz, Rating can be Expected to be Higher
+- [Sample Games](https://www.chess.com/c/2j3KdGsGr)
 ## Features
  **General Features:**
  - UCI Protocol
@@ -58,14 +66,20 @@
 	- King Ring / Shelter Strength / Unblocked Pawn Storm
 - Tempo
 
-## Strength
-**Version 2.3**
-- [CCRL](https://www.computerchess.org.uk/ccrl/404/) Blitz Rating [Estimate](https://docs.google.com/spreadsheets/d/1t2gDEfoMDtqAA5uL9U_GPA9CijjlMrVK4AR4DiAqqGU/edit?usp=sharing): 2071 ± 20
-- [Lichess](https://lichess.org/@/BetterThanCris) (Playing Almost Exclusively Against Other Bots):
-	- Bullet: 2202 Peak, Blitz: 2062 Peak
-- Against Humans, Especially in Bullet or Blitz, Rating can be Expected to be Higher
-- [Sample Games](https://www.chess.com/c/2j3KdGsGr)
-
+## To Do
+- Improve King Safety Evaluation
+	- Defending Pieces | Checks | Mobility
+- Add Syzygy EGTB
+- Improve Endgames
+	- Blockage | Draws | Known Endgames
+- Improve General Evaluation
+	- Outposts | Strong Squares | Piece Attacks | Passed Pawn Improvement | Trapped Pieces
+- Improve Time Management
+- Add Pattern Evaluations
+- Improve Mobility
+- Add Space Evaluation
+- Add Pondering Option
+- Add Parallel Search / Shared Hash Table
 
  
 ## Play BetterThanCris

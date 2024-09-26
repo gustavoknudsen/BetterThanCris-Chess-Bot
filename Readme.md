@@ -9,6 +9,7 @@
  5. [Releases](#releases) 
  6. [Credits](#credits)
 ## Introduction
+ - Aggressive & Entertaining Chess
  - Created by Gustavo Knudsen
  - UCI Protocol Chess Engine
  - Current Version: 2.3

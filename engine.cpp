@@ -6723,7 +6723,7 @@ void parseGo(const char *command)
         time -= moveOverhead;
         
         // "illegal" (empty) move bug fix
-        if (time > 1500) time -= 50;
+        if (time > 1500) time -= 100;
 
         // if time is up
         if (time < 0)
@@ -6739,7 +6739,7 @@ void parseGo(const char *command)
         }
 
         // get stop time
-        stoptime = starttime + time + inc;
+        stoptime = starttime + time + inc - 50;
 
         // treat increment as seconds per move when time is almost up
         if (time < 1500 && inc && depth == 64) stoptime = starttime + inc - 50;
@@ -6776,7 +6776,7 @@ void uciLoop()
     char input[2000];
     /*
     // print information
-    printf("id name BetterThanCris 2.2\n");
+    printf("id name BetterThanCris 2.3\n");
     printf("id author Gustavo Knudsen\n");
     printf("uciok\n");
     fflush(stdout);
@@ -6849,7 +6849,7 @@ void uciLoop()
         else if (strncmp(input, "uci", 3) == 0)
         {
             // print info 
-            printf("id name BetterThanCrisV2.2\n");
+            printf("id name BetterThanCrisV2.3\n");
             printf("id author Gustavo Knudsen\n");
             printf("uciok\n");
             printf("option name Move Overhead type spin default 10 min 0 max 5000\n");
